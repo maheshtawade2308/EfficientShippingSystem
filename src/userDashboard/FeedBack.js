@@ -6,8 +6,8 @@ import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 export default function FeedBack() {
 
   
-  const[i_id,setIId]=useState('')
-  const[t_id,setTId]=useState('')
+  // const[i_id,setIId]=useState('')
+  // const[t_id,setTId]=useState('')
   const[description,setDescription]=useState('')
   
   const handleClick=(e)=>{

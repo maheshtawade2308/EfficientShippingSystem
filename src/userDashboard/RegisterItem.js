@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import NavBar from './NavBar'
 // import "../styles/Home.css";
-import { FormGroup, Input, Label, FormText, Form, Button } from 'reactstrap';
-import { toast } from 'react-toastify';
+import { FormGroup, Input, Label, Form, Button } from 'reactstrap';
+// import { toast } from 'react-toastify';
 import axios from 'axios';
 
 export default function RegisterItem() {
@@ -16,14 +16,14 @@ export default function RegisterItem() {
   const [delivery_date, setDeliveryDate] = useState('')
   const [delivery_city, setDeliveryCity] = useState('')
   const [delivery_state, setDeliveryState] = useState('')
-  const [delivery_status, setDeliveryStatus] = useState('')
+  // const [delivery_status, setDeliveryStatus] = useState('')
   const [delivery_location, setDeliveryLocation] = useState('')
   const [description, setDescription] = useState('')
-  const [i_image, setItemImage] = useState('')
+  // const [i_image, setItemImage] = useState('')
 
   const handleClick = (e) => {
 
-    const itemdetail = { i_name, i_weight, description, pickup_location, pickup_state, pickup_city, delivery_location, delivery_state, delivery_city, delivery_status, i_image, delivery_date, pickup_date }
+    const itemdetail = { i_name, i_weight, description, pickup_location, pickup_state, pickup_city, delivery_location, delivery_state, delivery_city,delivery_date, pickup_date }
     const c_id = JSON.parse(localStorage.getItem('c_id'));
     // console.log(itemdetail,cust_id);
     axios.post(`http://localhost:8080/customer/itemdetails`, itemdetail, {

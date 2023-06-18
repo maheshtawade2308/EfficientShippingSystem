@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Form, FormGroup, FormText, Input, Label } from 'reactstrap'
+import { Button, Form, FormGroup, Input, Label } from 'reactstrap'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -11,7 +11,7 @@ export default function CustomerRegister()
   const[c_last_name,setLastName]=useState('')
   const[c_email_id,setEmail]=useState('')
   const[c_password,setPassword]=useState('')
-  const[Cpassword,setCPassword]=useState('')
+  // const[Cpassword,setCPassword]=useState('')
   const[c_phone_no,setPhoneNumber]=useState('')
   const[c_address,setAddress]=useState('')
   

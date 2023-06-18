@@ -1,8 +1,8 @@
-import React, { Component ,useState , useEffect} from 'react'
+import React, { useState , useEffect} from 'react'
 import NavBar from './NavBar'
 import "../styles/Home.css";
 import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
-import App1 from '../Timer/App1';
+// import App1 from '../Timer/App1';`
 // import AuctionItemDetails from './AuctionItemDetails';
 import Cookies from 'universal-cookie';
 
@@ -31,9 +31,9 @@ export default function AuctionItemForm(){
   const calculateTimeLeft = () => {
     // const start_date = new Date();
     
-    let year = new Date().getFullYear();
+    // let year = new Date().getFullYear();
     // const d1 = AuctionItemForm
-    const date1 = new Date('7/13/2010');
+    // const date1 = new Date('7/13/2010');
     // const date2 = new Date('12/15/2010');
     
     let difference = +new Date(a_end_datetime) - +new Date();
@@ -53,7 +53,7 @@ export default function AuctionItemForm(){
     return timeLeft;
   }
 
-  const [year] = useState(new Date().getFullYear());
+  // const [year] = useState(new Date().getFullYear());
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   useEffect(() => {
    

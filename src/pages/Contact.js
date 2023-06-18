@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } from "reactstrap";
+// import { Link } from "react-router-dom";
+import { Button, Card,CardTitle, Col, Row } from "reactstrap";
 // import AdminPanelSettingsOutlinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined';
-import transLogin1 from "../assets/transLogin1.png";
-import custLogin1 from "../assets/custLogin1.jpg";
+// import transLogin1 from "../assets/transLogin1.png";
+// import custLogin1 from "../assets/custLogin1.jpg";
 // import "../styles/Contact.css";
-import green from "@material-ui/core/colors/green";
-import AdminIcon from "@material-ui/icons/AccountCircleRounded";
+// import green from "@material-ui/core/colors/green";
+// import AdminIcon from "@material-ui/icons/AccountCircleRounded";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 

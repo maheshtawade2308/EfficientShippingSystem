@@ -1,9 +1,9 @@
-import React, { useState,Component } from 'react'
+import React, {Component } from 'react'
 
 import NavBar from './NavBar'
 import "../styles/Home.css";
 import { Button, Col, Form, FormGroup, Input, Label, Row } from 'reactstrap';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 export default class KilometerRangeForm extends Component{

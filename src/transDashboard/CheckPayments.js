@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import DirectBookingService from '../components/userService/DirectBookingService'
-import { Button, Card, CardText, CardTitle, Col, Row, Table } from 'reactstrap'
+import {  Card, CardText, CardTitle, Col, Row, Table } from 'reactstrap'
 import NavBar from './NavBar'
 
 export default class CheckPayments extends Component {

@@ -1,16 +1,16 @@
 // import React from 'react';
 import React, { useEffect, useState } from "react";
-import AuctionItemForm from "../userDashboard/AuctionItemForm";
+// import AuctionItemForm from "../userDashboard/AuctionItemForm";
 // import logo from './logo.svg';
-// import './App.css';
+// import './App.css';po
 
 function App1() {
   const calculateTimeLeft = () => {
     // const start_date = new Date();
     
-    let year = new Date().getFullYear();
+    // let year = new Date().getFullYear();
     // const d1 = AuctionItemForm
-    const date1 = new Date('7/13/2010');
+    // const date1 = new Date('7/13/2010');
     // const date2 = new Date('12/15/2010');
     
     let difference = +new Date('7/20/2022') - +new Date();
@@ -29,7 +29,7 @@ function App1() {
     return timeLeft;
   }
 
-  const [year] = useState(new Date().getFullYear());
+  // const [year] = useState(new Date().getFullYear());
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   useEffect(() => {
    

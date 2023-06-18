@@ -35,7 +35,7 @@ export default function AuctionItemDetails() {
     const cookie = new Cookies();
     const a_end_datetime = cookie.get('a_end_datetime');
     console.log("end date" + a_end_datetime);
-    let year = new Date().getFullYear();
+    // let year = new Date().getFullYear();
 
 
 
@@ -58,7 +58,7 @@ export default function AuctionItemDetails() {
   }
 
 
-  const [year] = useState(new Date().getFullYear());
+  // const [year] = useState(new Date().getFullYear());
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   useEffect(() => {
 
@@ -119,7 +119,7 @@ export default function AuctionItemDetails() {
   // Calling the function on component mount
   useEffect(() => {
     fetchInventory();
-  }, []);
+  });
   // window.alert(timerComponents);
   // console.log(data);
   // /alert((timerComponents))

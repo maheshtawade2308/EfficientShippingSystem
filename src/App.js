@@ -1,6 +1,4 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
@@ -13,13 +11,11 @@ import Register from "./pages/Register";
 import AdminLogin from "./pages/AdminLogin";
 import UserHome from "./userDashboard/Home";
 import KilometerRangeForm from "./userDashboard/KilometerRangeForm"
-import {Route,Routes,Link} from 'react-router-dom';
-import {ToastContainer} from 'react-toastify'
+import {Route,Routes} from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css'
 import RegisterItem from "./userDashboard/RegisterItem";
 import DirectBooking from "./userDashboard/DirectBooking";
 import FeedBack from "./userDashboard/FeedBack";
-import AuctionItems from "./userDashboard/AuctionItemDetails";
 import Settings from "./userDashboard/Settings";
 import Items from "./userDashboard/Items";
 import AuctionDetails from "./transDashboard/AuctionDetails"

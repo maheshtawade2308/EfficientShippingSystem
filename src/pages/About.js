@@ -1,7 +1,7 @@
 import React from "react";
-import { Col, Container, Row } from "reactstrap";
+// import { Col, Container, Row } from "reactstrap";
 import About1 from "../assets/about.png";
-import About2 from "../assets/about1.png"
+// import About2 from "../assets/about1.png"
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/About.css";

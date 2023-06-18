@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo from "../assets/trucklogo.png";
-import { Collapse, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand,  NavbarToggler, NavItem, NavLink, UncontrolledDropdown } from 'reactstrap';
+import { Collapse, Nav, Navbar, NavbarBrand,  NavbarToggler, NavItem, NavLink} from 'reactstrap';
 import "../styles/Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 export default function NavBar() {
     const logo={
         height: "70px",
@@ -26,7 +26,7 @@ export default function NavBar() {
     full
   >
     <NavbarBrand href="/">
-    <img src={Logo} style={logo}/>
+    <img src={Logo} alt="pic" style={logo }/>
     </NavbarBrand>
     <NavbarToggler onClick={function noRefCheck(){}} />
     <Collapse navbar>

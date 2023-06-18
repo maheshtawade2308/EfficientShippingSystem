@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } from "reactstrap";
-import transLogin1 from "../assets/transLogin1.png";
-import custLogin1 from "../assets/custLogin1.jpg";
+// import { Link } from "react-router-dom";
+import { Button, Card, CardTitle, Col, Row } from "reactstrap";
+// import transLogin1 from "../assets/transLogin1.png";
+// import custLogin1 from "../assets/custLogin1.jpg";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 // import "../styles/Contact.css";

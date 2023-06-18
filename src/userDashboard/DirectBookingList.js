@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Button, Table } from 'reactstrap'
+import { Table } from 'reactstrap'
 import NavBar from './NavBar'
 import DirectBookingService from '../components/userService/DirectBookingService'
-import Cookies from 'universal-cookie';
+// import Cookies from 'universal-cookie';
 
-const cookie = new Cookies();
-const  a_end_date= cookie.get('a_end_date');
+// const cookie = new Cookies();
+// const  a_end_date= cookie.get('a_end_date');
     // console.log(a_end_date);
 
 export default class DirectBookingList extends Component{

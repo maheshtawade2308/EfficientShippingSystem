@@ -18,7 +18,7 @@ const API6 = "http://localhost:8080/customer/historyauctionitem";
 const API7 = "http://localhost:8080/transporter/selectedBidders";
 
 // const API8 = "http://localhost:8080/transporter/estimatedprice";
-const API8 = "http://localhost:8080/admin/feedback";
+// const API8 = "http://localhost:8080/admin/feedback";
 
 const API9 = "http://localhost:8080/transporter/payment";
 
@@ -109,7 +109,7 @@ const API12 = "http://localhost:8080/transporter/selectedBidders";
     getAuctionItemsById(a_item_id,c_id)
     {
         console.log("a_item_id : "+a_item_id+"c_id: "+c_id);
-        return a_item_id,c_id;
+        return (a_item_id, c_id);
     }
 
    // customer aution items to check bidder
@@ -216,4 +216,5 @@ const API12 = "http://localhost:8080/transporter/selectedBidders";
         return sbidders;
     }
 }
+
 export default new DirectBookingService()

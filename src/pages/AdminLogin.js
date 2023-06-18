@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Button, Card, CardText, CardTitle, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
+import { Button,  Form, FormGroup, Input, Label} from "reactstrap";
 import custLoginImg from "../assets/custLogin.jpg";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";

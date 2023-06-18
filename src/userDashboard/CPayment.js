@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import NavBar from './NavBar'
 import "../styles/Home.css";
 import { Button, Col, Form, FormGroup, Input, Label, Row } from 'reactstrap';
