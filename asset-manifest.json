@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Efficient_Shipping_System/static/css/main.be8f19b7.css",
-    "main.js": "/Efficient_Shipping_System/static/js/main.2f1f8636.js",
-    "static/js/787.46fb8f97.chunk.js": "/Efficient_Shipping_System/static/js/787.46fb8f97.chunk.js",
-    "static/media/transport.png": "/Efficient_Shipping_System/static/media/transport.6f44a8eb3f7ad43f55c5.png",
-    "static/media/about.png": "/Efficient_Shipping_System/static/media/about.fe590cfb74791bf4047b.png",
-    "static/media/service2.png": "/Efficient_Shipping_System/static/media/service2.23820104468aeec8feff.png",
-    "static/media/custLogin.jpg": "/Efficient_Shipping_System/static/media/custLogin.2c7343ea23d123bcc202.jpg",
-    "static/media/service3.png": "/Efficient_Shipping_System/static/media/service3.6698ca7142d4001613ac.png",
-    "index.html": "/Efficient_Shipping_System/index.html",
-    "main.be8f19b7.css.map": "/Efficient_Shipping_System/static/css/main.be8f19b7.css.map",
-    "main.2f1f8636.js.map": "/Efficient_Shipping_System/static/js/main.2f1f8636.js.map",
-    "787.46fb8f97.chunk.js.map": "/Efficient_Shipping_System/static/js/787.46fb8f97.chunk.js.map"
+    "main.css": "/EfficientShippingSystem/static/css/main.be8f19b7.css",
+    "main.js": "/EfficientShippingSystem/static/js/main.b308153c.js",
+    "static/js/787.46fb8f97.chunk.js": "/EfficientShippingSystem/static/js/787.46fb8f97.chunk.js",
+    "static/media/transport.png": "/EfficientShippingSystem/static/media/transport.6f44a8eb3f7ad43f55c5.png",
+    "static/media/about.png": "/EfficientShippingSystem/static/media/about.fe590cfb74791bf4047b.png",
+    "static/media/service2.png": "/EfficientShippingSystem/static/media/service2.23820104468aeec8feff.png",
+    "static/media/custLogin.jpg": "/EfficientShippingSystem/static/media/custLogin.2c7343ea23d123bcc202.jpg",
+    "static/media/service3.png": "/EfficientShippingSystem/static/media/service3.6698ca7142d4001613ac.png",
+    "index.html": "/EfficientShippingSystem/index.html",
+    "main.be8f19b7.css.map": "/EfficientShippingSystem/static/css/main.be8f19b7.css.map",
+    "main.b308153c.js.map": "/EfficientShippingSystem/static/js/main.b308153c.js.map",
+    "787.46fb8f97.chunk.js.map": "/EfficientShippingSystem/static/js/787.46fb8f97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be8f19b7.css",
-    "static/js/main.2f1f8636.js"
+    "static/js/main.b308153c.js"
   ]
 }
