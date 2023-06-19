@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EfficientShippingSystem/static/css/main.be8f19b7.css",
-    "main.js": "/EfficientShippingSystem/static/js/main.b308153c.js",
+    "main.js": "/EfficientShippingSystem/static/js/main.7c1f6519.js",
     "static/js/787.46fb8f97.chunk.js": "/EfficientShippingSystem/static/js/787.46fb8f97.chunk.js",
     "static/media/transport.png": "/EfficientShippingSystem/static/media/transport.6f44a8eb3f7ad43f55c5.png",
     "static/media/about.png": "/EfficientShippingSystem/static/media/about.fe590cfb74791bf4047b.png",
@@ -10,11 +10,11 @@
     "static/media/service3.png": "/EfficientShippingSystem/static/media/service3.6698ca7142d4001613ac.png",
     "index.html": "/EfficientShippingSystem/index.html",
     "main.be8f19b7.css.map": "/EfficientShippingSystem/static/css/main.be8f19b7.css.map",
-    "main.b308153c.js.map": "/EfficientShippingSystem/static/js/main.b308153c.js.map",
+    "main.7c1f6519.js.map": "/EfficientShippingSystem/static/js/main.7c1f6519.js.map",
     "787.46fb8f97.chunk.js.map": "/EfficientShippingSystem/static/js/787.46fb8f97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be8f19b7.css",
-    "static/js/main.b308153c.js"
+    "static/js/main.7c1f6519.js"
   ]
 }
