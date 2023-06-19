@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Maheshtawade2308.github.io/Efficient_Shipping_System",
+  "homepage": "https://maheshtawade2308.github.io/EfficientShippingSystem",
   "name": "react-website-tut",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
